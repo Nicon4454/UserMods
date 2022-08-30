@@ -1,0 +1,28 @@
+<GDInfos>
+<GDInfo name="lng_en" class="GDGameLanguage">
+        <components>
+            <comp class="CProperties">
+                <display_name>English</display_name>
+                <language_code>en-US</language_code>
+            </comp>
+    </components>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_1.name">Improved Magnetic Power Coil Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_1.desc">Blueprint detailing how to create an improved magnetic coil to increase power output. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_2.name">Advanced Magnetic Power Coil Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_2.desc">Blueprint detailing how to create an advanced magnetic power coil to increase power output. Further research will be required.</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_3.name">Superior Power Coil Blueprint</gstr>
+        <gstr name="GDDiscoveryItem.dscitm_bpet2_ei_o_magcoil_3.desc">Blueprint detailing how to create an superior magnetic power coil to increase power output. Further research will be required.</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_1.name">Improved Magnetic Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_1.desc">Power Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_2.name">Advanced Magnetic Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_2.desc">Power Output {0}%</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_3.name">Elite Magnetic Power Coil</gstr>
+        <gstr name="GDEquipment_ObjectAttribute.ei_o_magcoil_3.desc">Power Output {0}%</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_1.name">Alien Building</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_1.desc">A tall building smooth to the touch and no windows.</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_2.name">Alien Building</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_2.desc">A two story building dark brown in color.</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_3.name">Alien Building</gstr>
+        <gstr name="GDMapPOI.poi_ei_o_magcoil_3.desc">An old crumbling alien building. </gstr>
+    </GDInfo>
+</GDInfos>

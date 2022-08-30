@@ -1,0 +1,420 @@
+<GDInfos>
+<!-- Setup Items -->
+    <GDInfo name="ei_o_magcoil_1" class="GDEquipment_ObjectAttribute">   
+        <comp class="CProperties">        
+            <tags>power_coil</tags>
+            <ui_icon>Items/IconPowerCoil1</ui_icon>
+            <rarity>ir_common</rarity>
+            <type>it_object_equipment</type>  
+            <attribute_effect>ae_ei_o_magcoil_1</attribute_effect>
+        </comp>
+    </GDInfo>
+    
+    <GDInfo name="ei_o_magcoil_2" class="GDEquipment_ObjectAttribute">   
+        <comp class="CProperties">                
+            <tags>power_coil</tags>
+            <ui_icon>Items/IconPowerCoil2</ui_icon>
+            <rarity>ir_uncommon</rarity>
+            <type>it_object_equipment</type>  
+            <attribute_effect>ae_ei_o_magcoil_2</attribute_effect>
+        </comp>
+    </GDInfo>
+    
+    <GDInfo name="ei_o_magcoil_3" class="GDEquipment_ObjectAttribute">   
+        <comp class="CProperties">        
+            <tags>power_coil</tags>
+            <ui_icon>Items/IconPowerCoil3</ui_icon>
+            <rarity>ir_rare</rarity>
+            <type>it_object_equipment</type>  
+            <attribute_effect>ae_ei_o_magcoil_3</attribute_effect>
+        </comp>
+    </GDInfo>
+
+<GDInfo name="ei_o_magcoil_4" class="GDEquipment_ObjectAttribute">
+        <comp class="CProperties">        
+            <tags>power_coil</tags>
+            <ui_icon>Items/IconPowerCoil3</ui_icon>
+            <rarity>ir_rare</rarity>
+            <type>it_object_equipment</type>  
+            <attribute_effect>ae_ei_o_magcoil_4</attribute_effect>
+        </comp>
+    </GDInfo>    
+
+<!-- Setup Attreffect -->
+    <GDInfo name="ae_ei_o_magcoil_1" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">
+                <attribute_id>cresgen_power_output</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Current</target>
+                <value>3</value>
+            </comp>
+        </components>
+    </GDInfo>
+    
+    <GDInfo name="ae_ei_o_magcoil_2" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">
+                <attribute_id>cresgen_power_output</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Current</target>
+                <value>4</value>
+            </comp>
+        </components>
+    </GDInfo>
+    
+    <GDInfo name="ae_ei_o_magcoil_3" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">
+                <attribute_id>cresgen_power_output</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Current</target>
+                <value>5</value>
+            </comp>
+        </components>
+    </GDInfo>
+
+<GDInfo name="ae_ei_o_magcoil_4" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">
+                <attribute_id>cresgen_power_output</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Current</target>
+                <value>50</value>
+            </comp>
+        </components>
+    </GDInfo>
+
+
+<!-- setup Recipes -->
+    <GDInfo name="recipe_ei_o_magcoil_1" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>12</craft_time>
+                <output_item_id>ei_o_magcoil_1</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="5">res_copper</item>
+                    <item qty="2">res_titanium</item>
+                    <item qty="2">res_mechparts</item>
+                    <item qty="1">res_processor</item>
+                    <item qty="5">res_electronics</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="5">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="2">res_titanium</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="2">res_mechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="1">res_processor</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="5">res_electronics</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+                <research_needed>rsch_rec_ei_o_magcoil_1</research_needed>
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="recipe_ei_o_magcoil_2" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>16</craft_time>
+                <output_item_id>ei_o_magcoil_2</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="7">res_copper</item>
+                    <item qty="4">res_titanium</item>
+                    <item qty="4">res_mechparts</item>
+                    <item qty="2">res_processor</item>
+                    <item qty="10">res_electronics</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="7">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="4">res_titanium</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="4">res_mechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="2">res_processor</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="10">res_electronics</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+                <research_needed>rsch_rec_ei_o_magcoi2</research_needed>
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="recipe_ei_o_magcoil_3" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>20</craft_time>
+                <output_item_id>ei_o_magcoil_3</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="10">res_copper</item>
+                    <item qty="7">res_titanium</item>
+                    <item qty="8">res_mechparts</item>
+                    <item qty="3">res_processor</item>
+                    <item qty="15">res_electronics</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="10">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="7">res_titanium</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="8">res_mechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="3">res_processor</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="15">res_electronics</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+                <research_needed>rsch_rec_ei_o_magcoi3</research_needed>
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+<!-- Setup Research -->
+    <GDInfo name="rsch_rec_ei_o_magcoil_1" class="GDResearch">
+        <components>
+            <comp class="CProperties">
+                <dname_id>GDEquipment_ObjectAttribute.ei_o_magcoil_1.name</dname_id>
+                <desc_id></desc_id>
+                <cost type="PurchaseCost">
+                    <currency id="currency_research">100</currency>
+                    <currency id="currency_techfragments">50</currency>
+                </cost>
+                <type>recipe</type>
+                <ui_icon>Items/IconPowerCoil1</ui_icon>
+                <research_needed>rsch_techprinting</research_needed>
+                <required_discoveries>dscitm_bpet2_ei_o_magcoil_1</required_discoveries>
+                <research_group>rsch_grp_techprinter.oequipment</research_group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="rsch_rec_ei_o_magcoil_2" class="GDResearch">
+        <components>
+            <comp class="CProperties">
+                <dname_id>GDEquipment_ObjectAttribute.ei_o_magcoil_2.name</dname_id>
+                <desc_id></desc_id>
+                <cost type="PurchaseCost">
+                    <currency id="currency_research">200</currency>
+                    <currency id="currency_techfragments">150</currency>
+                </cost>
+                <type>recipe</type>
+                <ui_icon>Items/IconPowerCoil2</ui_icon>
+                <research_needed>rsch_techprinting</research_needed>
+                <required_discoveries>dscitm_bpet2_ei_o_magcoil_2</required_discoveries>
+                <research_group>rsch_grp_techprinter.oequipment</research_group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="rsch_rec_ei_o_magcoil_3" class="GDResearch">
+        <components>
+            <comp class="CProperties">
+                <dname_id>GDEquipment_ObjectAttribute.ei_o_magcoil_3.name</dname_id>
+                <desc_id></desc_id>
+                <cost type="PurchaseCost">
+                    <currency id="currency_research">300</currency>
+                    <currency id="currency_techfragments">250</currency>
+                </cost>
+                <type>recipe</type>
+                <ui_icon>Items/IconPowerCoil3</ui_icon>
+                <research_needed>rsch_techprinting</research_needed>
+                <required_discoveries>dscitm_bpet2_ei_o_magcoil_3</required_discoveries>
+                <research_group>rsch_grp_techprinter.oequipment</research_group>
+            </comp>
+        </components>
+    </GDInfo>
+
+<!-- Setup Loot Table -->
+    <GDInfo name="ltable_cs_ei_o_magcoil_1" class="GDLootTable">
+        <p duplicates="false" num_rounds="1" zero_probability="10" />
+        <item probability="0" id="dscitm_bpet2_ei_o_magcoil_1" required="true" count="1" />
+        <item probability="100" id="ltable_techfragments" count="3" />
+    </GDInfo>
+
+    <GDInfo name="ltable_cs_ei_o_magcoil_2" class="GDLootTable">
+        <p duplicates="false" num_rounds="1" zero_probability="10" />
+        <item probability="0" id="dscitm_bpet2_ei_o_magcoil_2" required="true" count="1" />
+        <item probability="100" id="ltable_techfragments" count="3" />
+    </GDInfo>
+
+    <GDInfo name="ltable_cs_ei_o_magcoil_3" class="GDLootTable">
+        <p duplicates="false" num_rounds="1" zero_probability="10" />
+        <item probability="0" id="dscitm_bpet2_ei_o_magcoil_3" required="true" count="1" />
+        <item probability="100" id="ltable_techfragments" count="3" />
+    </GDInfo>
+
+<!-- Setup POI Data -->
+    <GDInfo name="poi_ei_o_magcoil_1" class="GDMapPOI">
+        <comp class="CProperties">
+            <story_id>cs_ei_o_magcoil_1</story_id>
+            <biomes_whitelist>pbiome_subtropicaldesert/pbiome_chaparral/pbiome_tropicalgrassland/pbiome_borealdesert/pbiome_borealrainforest/pbiome_tundraarctic</biomes_whitelist>
+            <repeatable>false</repeatable>    
+            <appear_multiple>false</appear_multiple>
+            <map_entity>spoi_ruins_gen</map_entity>   
+            <num_to_spawn>2</num_to_spawn>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="poi_ei_o_magcoil_2" class="GDMapPOI">
+        <comp class="CProperties">
+            <story_id>cs_ei_o_magcoil_2</story_id>
+            <biomes_whitelist>pbiome_subtropicaldesert/pbiome_chaparral/pbiome_tropicalgrassland/pbiome_borealdesert/pbiome_borealrainforest/pbiome_tundraarctic</biomes_whitelist>
+            <repeatable>false</repeatable>    
+            <appear_multiple>false</appear_multiple>
+            <map_entity>spoi_ruins_gen</map_entity>   
+            <num_to_spawn>2</num_to_spawn>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="poi_ei_o_magcoil_3" class="GDMapPOI">
+        <comp class="CProperties">
+            <story_id>cs_ei_o_magcoil_3</story_id>
+            <biomes_whitelist>pbiome_subtropicaldesert/pbiome_chaparral/pbiome_tropicalgrassland/pbiome_borealdesert/pbiome_borealrainforest/pbiome_tundraarctic</biomes_whitelist>
+            <repeatable>false</repeatable>    
+            <appear_multiple>false</appear_multiple>
+            <map_entity>spoi_ruins_gen</map_entity>   
+            <num_to_spawn>2</num_to_spawn>
+        </comp>
+    </GDInfo>
+
+<!-- Setup POI Data Story -->
+    <GDInfo name="cs_ei_o_magcoil_1" class="GDStory">
+        <comp class="CProperties">
+            <scope type="enum:EStoryType">Expedition</scope>
+            <dname_id>GDMapPOI.poi_ei_o_magcoil_1.name</dname_id>
+        </comp>
+        <comp class="CStoryNode" id="root">
+            <line>The expedition team arrives at an alien building. While searching the building they find an entrance to a file storage area. There are no files in the cabinet a bit let down they turn to leave the room and noticed that there was a file folder. Wonder if it contains anything?</line>
+            <result handler="SRH_LootTable">
+                <loot_table>ltable_cs_ei_o_magcoil_1</loot_table>
+            </result>
+            <choice to="--end">Leave</choice>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="cs_ei_o_magcoil_2" class="GDStory">
+        <comp class="CProperties">
+            <scope type="enum:EStoryType">Expedition</scope>
+            <dname_id>GDMapPOI.poi_ei_o_magcoil_2.name</dname_id>
+        </comp>
+        <comp class="CStoryNode" id="root">
+            <line>The expedition team arrives at an alien building. While searching the building they find an entrance to a file storage area. There are no files in the cabinet a bit let down they turn to leave the room and noticed that there was a file folder. Wonder if it contains anything?</line>
+            <result handler="SRH_LootTable">
+                <loot_table>ltable_cs_ei_o_magcoil_2</loot_table>
+            </result>
+            <choice to="--end">Leave</choice>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="cs_ei_o_magcoil_3" class="GDStory">
+        <comp class="CProperties">
+            <scope type="enum:EStoryType">Expedition</scope>
+            <dname_id>GDMapPOI.poi_ei_o_magcoil_3.name</dname_id>
+        </comp>
+        <comp class="CStoryNode" id="root">
+            <line>The expedition team arrives at an alien building. While searching the building they find an entrance to a file storage area. There are no files in the cabinet a bit let down they turn to leave the room and noticed that there was a file folder. Wonder if it contains anything?</line>
+            <result handler="SRH_LootTable">
+                <loot_table>ltable_cs_ei_o_magcoil_3</loot_table>
+            </result>
+            <choice to="--end">Leave</choice>
+        </comp>
+    </GDInfo>
+
+<!-- Setup the Blueprints -->
+    <GDInfo name="dscitm_bpet2_ei_o_magcoil_1" class="GDDiscoveryItem">
+        <components>
+            <comp class="CProperties">
+                <ui_icon>Items/IconBlueprint</ui_icon>
+                <group_id>dscgrp_blueprints_oequip_t2</group_id>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="dscitm_bpet2_ei_o_magcoil_2" class="GDDiscoveryItem">
+        <components>
+            <comp class="CProperties">
+                <ui_icon>Items/IconBlueprint</ui_icon>
+                <group_id>dscgrp_blueprints_oequip_t2</group_id>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="dscitm_bpet2_ei_o_magcoil_3" class="GDDiscoveryItem">
+        <components>
+            <comp class="CProperties">
+                <ui_icon>Items/IconBlueprint</ui_icon>
+                <group_id>dscgrp_blueprints_oequip_t2</group_id>
+            </comp>
+        </components>
+    </GDInfo>
+
+</GDInfos>

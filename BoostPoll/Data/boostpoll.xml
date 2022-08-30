@@ -1,0 +1,32 @@
+<GDInfos>
+    <GDInfo name="sf_powerpole" class="ESurfacePowerPole">
+        <components>
+            <comp class="CGraphicModel">
+                <resource_path>PlanetStructures/SF_PowerPole</resource_path>
+                <connect_type>Single</connect_type>
+            </comp>
+            <comp class="CProperties">
+                <collider>true</collider>
+                <ui_icon>Objects/icon_SF_PowerPole</ui_icon>
+                <vision_range>1</vision_range>
+                <vis_filter>pm_visfilter_buildings_powerpoles</vis_filter>
+                <research_needed>rsch_surfacepowergen</research_needed>
+                <ui_struct_cat>uisc_surfacestructures</ui_struct_cat>
+                <ui_struct_sub_cat>uissc_struct_power</ui_struct_sub_cat>
+                <show_in_building_list>false</show_in_building_list>
+            </comp>
+            <comp class="CBuildable">
+                <work_amt>20</work_amt>
+                <resources>
+                    <item name="res_structresin">20</item>
+                    <item name="res_copper">5</item>
+                </resources>
+            </comp>
+            <comp class="CSurfUnitRadiusDisplay"></comp>
+            <comp class="CElectricSurfaceConnector">
+                <connection_range>25</connection_range>
+            </comp>
+        </components>
+    </GDInfo>
+
+</GDInfos>
